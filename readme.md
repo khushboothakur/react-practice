@@ -20,8 +20,8 @@ A simple counter app built while learning React with Chai aur Code.
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/your-username/react-practice.git
+cd react-practice
 npm install
 npm run dev
 ```
