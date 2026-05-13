@@ -1,6 +1,3 @@
-Learning React.js bu following Chai aur code Series 
-started: May 2026
-
 # Chai or React ⚛️
 
 A simple counter app built while learning React with Chai aur Code.
