@@ -1,16 +1,46 @@
-# React + Vite
+🔐 Password Generator
+A clean and responsive Password Generator built with React + Vite and styled using Tailwind CSS.
+✨ Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔡 Generate random passwords with uppercase & lowercase letters
+🔢 Toggle Numbers (0–9)
+🔣 Toggle Special Characters (!@#$%^&*()_+)
+📏 Adjustable password length (6 to 100)
+📋 Copy to clipboard button
+⚡ Password auto-regenerates on any setting change
 
-Currently, two official plugins are available:
+🛠️ Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+React — UI library
+Vite — Fast build tool
+Tailwind CSS — Utility-first styling
 
-## React Compiler
+🚀 Getting Started
+1. Clone the repo
+bashgit clone https://github.com/khushboothakur/react-practice.git
+cd react-practice/05passwordgenerator
+2. Install dependencies
+bashnpm install
+3. Run the dev server
+bashnpm run dev
+Open http://localhost:5173 in your browser.
+📁 Project Structure
+05passwordgenerator/
+├── public/
+├── src/
+│   ├── App.jsx       # Main component
+│   ├── main.jsx      # Entry point
+│   └── index.css     # Global styles
+├── index.html
+├── package.json
+└── vite.config.js
+🧠 Concepts Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+useState — managing length, toggles, password state
+useCallback — memoizing password generator function
+useEffect — auto-generating password on state change
+useRef — copying password to clipboard
 
-## Expanding the ESLint configuration
+📸 Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Password Generator with dark theme UI, range slider for length, and toggles for numbers/special characters.
