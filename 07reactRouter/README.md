@@ -42,3 +42,5 @@ npm run dev
 | `/contact` | Contact |
 | `/user/:userid` | User |
 | `/github` | Github |
+
+if u liked it please give it a star
